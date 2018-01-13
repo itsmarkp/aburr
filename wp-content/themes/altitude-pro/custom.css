@@ -1,0 +1,271 @@
+/*////////////////////////////////////////////////////////
+/// BEGIN: Global
+////////////////////////////////////////////////////////*/
+body {
+	font-family: ;
+	font-weight: 100;
+	
+}
+
+tbody {
+	border-bottom: 0;
+}
+
+.front-page-2, .front-page-5, .front-page-7 {
+	border-top: 0;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.front-page-1 .widget:first-of-type h4,
+.front-page-2 .widget:first-of-type h4 {
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+.image-section h4,
+.solid-section h4, 
+.image-section .widget-title,
+.solid-section .widget-title {
+	font-size: 80px;
+    font-size: 8rem;
+}
+
+span.our-point {
+	font-size: 30px;
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+
+.image-section { /* This needs to be cross-browsed */
+	background: -moz-linear-gradient(bottom,  rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.5) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.0)), color-stop(100%,rgba(0,0,0,0.5)));	
+	background: -webkit-linear-gradient(bottom,  rgba(0,0,0,0.0) 0%,rgba(0,0,0,0.5) 100%);
+	background: -o-linear-gradient(bottom,  rgba(0,0,0,0.0) 0%,rgba(0,0,0,0.5) 100%);
+	background: -ms-linear-gradient(bottom,  rgba(0,0,0,0.0) 0%,rgba(0,0,0,0.5) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.0) 0%,rgba(0,0,0,0.5) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#e6000000',GradientType=0 );
+}
+
+/*////////////////////////////////////////////////////////
+/// BEGIN: Header
+////////////////////////////////////////////////////////*/
+.featured-section .site-header {
+    background-color: #000;
+	position: fixed;
+}
+
+.featured-section .site-header > .wrap {
+    border-bottom: 1px solid #111;
+}
+
+.genesis-nav-menu a {
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+/*////////////////////////////////////////////////////////
+/// BEGIN: Landing
+////////////////////////////////////////////////////////*/
+#front-page-1 .widget {
+	text-align: left;
+}
+
+#front-page-1 .image-section .widget-area {
+	vertical-align: top;
+}
+
+#front-page-1 .widget h4 {
+	color: #000;
+}
+
+/*////////////////////////////////////////////////////////
+/// BEGIN: Philosophy
+////////////////////////////////////////////////////////*/
+#front-page-2,
+#front-page-2 .solid-section,
+#front-page-4,
+#front-page-4 .solid-section,
+#front-page-6,
+#front-page-6 .solid-section,
+#front-page-7,
+#front-page-7 .solid-section,
+#front-page-7 .image-section .widget-area {
+	text-align: left;
+}
+
+/*////////////////////////////////////////////////////////
+/// BEGIN: Biography
+////////////////////////////////////////////////////////*/
+
+/*////////////////////////////////////////////////////////
+/// BEGIN: Rates
+////////////////////////////////////////////////////////*/
+#front-page-6 .rates-table {
+    width: 47%;
+    max-width: 580px;
+    margin: 0 10px;
+    border: 0;
+    float: left;
+}
+
+#front-page-6 h5 {
+	margin-bottom: 0;
+    font-size: 35px;
+    font-size: 3.5rem;
+}
+
+#front-page-6 .rates-table td {
+	width: 300px;
+	border: 0;
+	font-size: 25px;
+    font-size: 2.5rem;
+}
+
+#front-page-6 .rates-table td.footnote {
+	font-size: 20px;
+	font-size: 2rem;
+	line-height: 21px;
+}
+
+#front-page-6 .last-td-left {
+	padding-bottom: 75px;
+}
+
+#front-page-6 .last-td-right {
+	padding-bottom: 70px;
+}
+
+/*////////////////////////////////////////////////////////
+/// BEGIN: Contact
+////////////////////////////////////////////////////////*/
+#front-page-7 * {
+	color: #000;
+}
+
+#front-page-7 .textwidget div {
+    margin: 0 0 3%;
+}
+
+
+#front-page-7 li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 10px;
+}
+
+#front-page-7 li img:hover,
+#front-page-7 li a:hover {
+	opacity: .7;
+}
+
+/*////////////////////////////////////////////////////////
+/// BEGIN: Media Queries
+////////////////////////////////////////////////////////*/
+
+/* BEGIN: iPad General */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+	#front-page-1 .image-section .widget-area {
+		vertical-align: middle;
+	}
+	
+	#front-page-4 .textwidget img {
+		float: right;
+		max-width: 50%;
+	}
+}
+
+/* BEGIN: iPad Portrait */
+@media screen and (max-width: 1024px) and (min-width: 768px) and (orientation: portrait) {
+	
+	#front-page-1 .widget:first-of-type h4 {
+		font-size: 50px;
+		font-size: 5rem;
+	}
+	
+	#front-page-7 .widget-wrap {
+		background: rgba(255, 255, 255, .75);
+		padding: 5%;
+	}
+}
+
+/* Responsive */
+@media only screen and (min-width: 768px) {
+
+	#front-page-1 .image-section,
+	#front-page-7 .image-section {
+		background: transparent !important;
+	}
+
+		#front-page-3 {
+		background-position: 20%;
+	}
+
+		#front-page-5 {
+		background-position: 90%;
+	}	
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+
+	#front-page-1 .image-section .widget-area {
+		vertical-align: bottom;
+	}
+	
+	#front-page-1 .widget h4 {
+		color: #fff;
+	}
+	
+	.content h4,
+	.front-page-1 .widget:first-of-type h4,
+	.front-page-2 .widget:first-of-type h4 {
+		font-size: 40px;
+		font-size: 4rem;
+	}
+	
+	#front-page-1 {
+		background-position: 65%;
+	}
+	
+	#front-page-3 {
+		background-position: 20%;
+	}
+	
+	#front-page-5 {
+		background-position: 90%;
+	}
+
+	#front-page-6 .right tbody {
+		border-bottom: 1px solid #e5e7e9;
+	}
+
+	#front-page-6 .last-td-right{
+		padding-bottom: 20px;
+	}
+	
+	#front-page-6 .rates-table h5 {
+		float: left;
+		margin-top: 35px;	
+	}
+
+	#front-page-6 .rates-table {
+		width: 100%;
+		float: none;
+	}
+	
+	#front-page-6 .rates-table td {
+		width: 70%;
+	}
+	
+	#front-page-7 .widget-wrap {
+		background: rgba(255, 255, 255, .75);
+		padding: 5%;
+	}
+
+}
