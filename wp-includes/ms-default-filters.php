@@ -43,7 +43,7 @@ add_action( 'after_signup_site', 'wpmu_signup_blog_notification', 10, 7 );
 add_action( 'signup_hidden_fields', 'signup_nonce_fields' );
 
 // Template
-add_action( 'template_redirect', 'maybe_redirect_404' );
+//add_action( 'template_redirect', 'maybe_redirect_404' );
 //add_filter( 'allowed_redirect_hosts', 'redirect_this_site' ); 
 
 // Administration
