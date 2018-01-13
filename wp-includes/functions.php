@@ -7,6 +7,8 @@
 
 require( ABSPATH . WPINC . '/option.php' );
 
+remove_filter('template_redirect','redirect_canonical'); 
+
 /**
  * Convert given date string into a different format.
  *
