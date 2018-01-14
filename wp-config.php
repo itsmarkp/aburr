@@ -23,16 +23,16 @@ define('WP_CACHE', true); // Added by W3 Total Cache
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'aburrwp');
+define('DB_NAME', 'heroku_6b3e45fec62f82e');
 
 /** MySQL database username */
 define('DB_USER', 'aburrwp');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Lk8yNN#42Ns');
+define('DB_PASSWORD', '26ccbc9c');
 
 /** MySQL hostname */
-define('DB_HOST', 'aburrwp.db.10313728.c4c.hostedresource.net');
+define('DB_HOST', 'us-cdbr-iron-east-05.cleardb.net');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
