@@ -26,7 +26,7 @@ define('WP_CACHE', true); // Added by W3 Total Cache
 define('DB_NAME', 'heroku_6b3e45fec62f82e');
 
 /** MySQL database username */
-define('DB_USER', 'aburrwp');
+define('DB_USER', 'bd828dbb395bab');
 
 /** MySQL database password */
 define('DB_PASSWORD', '26ccbc9c');
